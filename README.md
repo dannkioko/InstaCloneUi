@@ -1,5 +1,5 @@
 # instacloneUI
 
-A Somewhat Instagram UI clone
+A somewhat Instagram UI clone
 
 
