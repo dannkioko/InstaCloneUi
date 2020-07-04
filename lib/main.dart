@@ -8,9 +8,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primaryColor: Colors.pink,
-      ),
+      theme:
+          ThemeData(primaryColor: Colors.black, primarySwatch: Colors.blueGrey),
       title: "InstaClone",
       home: HomeScreen(),
     );

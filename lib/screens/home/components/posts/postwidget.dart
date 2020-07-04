@@ -47,7 +47,7 @@ class PostWidget extends StatelessWidget {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                    child: Icon(Icons.cloud_circle),
+                    child: Icon(Icons.favorite),
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 8.0),

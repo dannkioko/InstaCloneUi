@@ -17,15 +17,15 @@ class BottomNavBarWidget extends StatelessWidget {
             size: 40.0,
           ),
           Icon(
-            Icons.add,
+            Icons.add_box,
             size: 40.0,
           ),
           Icon(
-            Icons.palette,
+            Icons.favorite_border,
             size: 40.0,
           ),
           Icon(
-            Icons.person,
+            Icons.person_outline,
             size: 40.0,
           ),
         ],
