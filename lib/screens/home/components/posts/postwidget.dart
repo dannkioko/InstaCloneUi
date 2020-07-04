@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:instacloneUI/screens/home/components/addcomment.dart';
-import 'package:instacloneUI/screens/home/components/commentswidget.dart';
+import 'package:instacloneUI/screens/home/components/comments/addcomment.dart';
+import 'package:instacloneUI/screens/home/components/comments/commentswidget.dart';
 
 class PostWidget extends StatelessWidget {
   @override

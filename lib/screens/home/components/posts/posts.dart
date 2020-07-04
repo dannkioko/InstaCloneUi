@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:instacloneUI/screens/home/components/postwidget.dart';
+import 'package:instacloneUI/screens/home/components/posts/postwidget.dart';
 
 class Posts extends StatelessWidget {
   @override

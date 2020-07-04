@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:instacloneUI/screens/home/components/bottomnavbar.dart';
-import 'package:instacloneUI/screens/home/components/posts.dart';
-import 'package:instacloneUI/screens/home/components/storieswidget.dart';
+import 'package:instacloneUI/screens/home/components/posts/posts.dart';
+import 'package:instacloneUI/screens/home/components/stories/storieswidget.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
