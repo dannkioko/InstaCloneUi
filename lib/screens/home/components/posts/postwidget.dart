@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:instacloneUI/models/posts.dart';
 import 'package:instacloneUI/screens/home/components/comments/addcomment.dart';
-import 'package:instacloneUI/screens/home/components/comments/commentswidget.dart';
+import 'package:instacloneUI/screens/home/components/comments/comment.dart';
 
 class PostWidget extends StatelessWidget {
   @override
@@ -87,7 +87,7 @@ class PostWidget extends StatelessWidget {
                           : Text(""),
                     ),
                   ),
-                  CommentsWidget(),
+                  CommentWidget(post.postID),
                   AddComment(),
                 ],
               );
