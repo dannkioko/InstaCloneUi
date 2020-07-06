@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instacloneUI/screens/home/components/bottomnavbar.dart';
-import 'package:instacloneUI/screens/home/components/posts/posts.dart';
+import 'package:instacloneUI/screens/home/components/posts/postwidget.dart';
 import 'package:instacloneUI/screens/home/components/stories/storieswidget.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -23,10 +23,10 @@ class HomeScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: ListView(
+      body: Column(
         children: <Widget>[
           StoriesWidget(),
-          Posts(),
+          PostWidget(),
         ],
       ),
       bottomNavigationBar: BottomNavBarWidget(),
